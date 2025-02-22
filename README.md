@@ -42,9 +42,9 @@ f5pqc-tester list --public-key-algorithms -provider oqsprovider
 ```
 
 ### **Step 5: Test a TLS Connection Using PQC**
-To connect to a **PQC-enabled** TLS server (e.g., Cloudflare’s PQC test server):
+To connect to a **PQC-enabled** TLS server:
 ```sh
-f5pqc-tester s_client -connect pq.cloudflareresearch.com:443 -curves X25519MLKEM768
+f5pqc-tester s_client -connect my.example.com:443 -curves X25519MLKEM768
 ```
 ✅ This negotiates **X25519 + ML-KEM-768** as the key exchange mechanism.
 
@@ -107,8 +107,6 @@ This **Dockerized OpenSSL environment** provides a secure, **PQC-ready** impleme
 
 ## **🔗 Additional Resources**
 - [Open Quantum Safe (OQS) Project](https://openquantumsafe.org)
-- [Cloudflare PQC TLS Test](https://pq.cloudflareresearch.com)
 - [OpenSSL Documentation](https://www.openssl.org/docs/)
-
 
 Note that this was written with the help of ChatGPT and other GenAI tools
