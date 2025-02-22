@@ -110,8 +110,5 @@ This **Dockerized OpenSSL environment** provides a secure, **PQC-ready** impleme
 - [Cloudflare PQC TLS Test](https://pq.cloudflareresearch.com)
 - [OpenSSL Documentation](https://www.openssl.org/docs/)
 
----
 
-### **🎉 Your OpenSSL Is Now PQC-Ready!**
-Let me know if you need further refinements! 🚀
-
+Note that this was written with the help of ChatGPT and other GenAI tools
